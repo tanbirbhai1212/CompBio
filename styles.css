@@ -639,6 +639,39 @@ h1 {
   padding: 16px 34px;
 }
 
+.portal-callout {
+  padding: 44px 0;
+}
+
+.portal-card {
+  display: grid;
+  grid-template-columns: 1.8fr 0.8fr;
+  gap: 24px;
+  align-items: center;
+  padding: 34px;
+  border-radius: 32px;
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+  box-shadow: 0 28px 60px rgba(15,23,42,0.08);
+}
+
+.portal-card h2 {
+  margin: 0;
+  font-size: clamp(2rem, 2.5vw, 2.4rem);
+  color: #0f172a;
+}
+
+.portal-card p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.85;
+}
+
+.portal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .cta-section {
   padding: 46px 0 64px;
 }
