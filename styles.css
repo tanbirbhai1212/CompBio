@@ -578,6 +578,25 @@ h1 {
   gap: 18px;
 }
 
+.publication-links {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: #475569;
+}
+
+.publication-links li {
+  margin-bottom: 10px;
+}
+
+.publication-links a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
 .feature-item {
   padding: 22px 24px;
   border-radius: 24px;
